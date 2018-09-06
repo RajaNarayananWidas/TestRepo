@@ -7,7 +7,7 @@ android:
     - sys-img-armeabi-v7a-android-tv-l
     - add-on
     - extra
-    - sys-img-armeabi-v7a-android-26
+    - sys-img-armeabi-v7a-android-27
     - sys-img-armeabi-v7a-android-17
   licenses:
     - 'android-sdk-preview-license-52d11cd2'
