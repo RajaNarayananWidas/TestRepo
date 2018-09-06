@@ -14,14 +14,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void nextActivity(View view){
-        Toast.makeText(this, "Final Replace me To ", Toast.LENGTH_SHORT).show();
-        Intent intent=new Intent(this,Main2Activity.class);
-        startActivity(intent);
-    }
 
-    public int add(int a,int b)
+    public void sam()
     {
-      return a+b;
+
+    }
+    public void sam1()
+    {
+
     }
 }
