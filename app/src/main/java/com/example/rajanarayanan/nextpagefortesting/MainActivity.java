@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void nextActivity(View view){
-        Toast.makeText(this, "Final Activitysenr To ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Final Replace me To ", Toast.LENGTH_SHORT).show();
         Intent intent=new Intent(this,Main2Activity.class);
         startActivity(intent);
     }
