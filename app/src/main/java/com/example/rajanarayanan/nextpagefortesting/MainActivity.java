@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,Main2Activity.class);
         startActivity(intent);
     }
+
+    public int add(int a,int b)
+    {
+      return a+b;
+    }
 }
