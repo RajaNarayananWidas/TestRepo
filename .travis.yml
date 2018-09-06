@@ -17,7 +17,7 @@ android:
 
 
 before_install:
-- yes | sdkmanager "platforms;android-28"'
+- yes | sdkmanager "platforms;android-28"
 
 before_script:
   - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
