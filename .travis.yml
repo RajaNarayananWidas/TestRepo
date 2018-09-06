@@ -12,6 +12,7 @@ android:
     - 'android-sdk-preview-license-52d11cd2'
     - 'android-sdk-license-.+'
     - 'google-gdk-license-.+'
+    - 'android-googletv-license-.+'
 
 
 before_install:
