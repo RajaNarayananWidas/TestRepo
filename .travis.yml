@@ -1,3 +1,4 @@
+
 language: android
 env:
   matrix:
@@ -23,19 +24,12 @@ before_script:
   - adb shell input keyevent 82 &
 
 
-
 before_install:
 - yes | sdkmanager "platforms;android-27"
-
 
 
 script: ./gradlew jacocoTestReport
 
 after_success:
- - codecov
+
   - bash <(curl -s https://codecov.io/bash) -t $CODECOV_TOKEN
-
-
-
-
-
